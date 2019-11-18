@@ -1,0 +1,14 @@
+.title-type {
+    z-index: 2;
+    position: absolute;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    //set dimensions
+    &__title {
+        height:320px;
+        width:320px;
+        opacity: 0.8;
+    }
+}
