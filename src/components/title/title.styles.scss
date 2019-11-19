@@ -8,9 +8,9 @@
     &__title {
         height:320px;
         width:320px;
-        opacity: 0.8;
     }
     &__label {
+        text-shadow: 2px 2px #724747;
         text-align: center;
         z-index: 20;
         position:  absolute;
@@ -22,3 +22,5 @@
         line-height: 35px;
     }
 }
+
+

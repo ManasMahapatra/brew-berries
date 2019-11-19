@@ -28,5 +28,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@svgr/cli": "^4.3.3",
+    "@svgr/webpack": "^4.3.3"
   }
 }

@@ -1,6 +1,4 @@
 import React from 'react';
-import BackGround from './components/background/background.component';
-import TitleType from './components/title/title.component';
 import LandingPage from './pages/landing-page/landing-page.component';
 import './App.css';
 class App extends React.Component {
