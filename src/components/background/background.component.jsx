@@ -6,7 +6,7 @@ const BackGround = props => (
     <div className="back-ground">
         <div className="back-ground__under"></div>
         {/* <h1 >x: {widthX}</h1> */}
-        <div className="back-ground__over" style={{clipPath:props.clipPath}} ></div>
+        <div className="back-ground__over" style={{clipPath:props.clipPathX}} ></div>
     </div>
 )
 

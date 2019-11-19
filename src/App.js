@@ -1,6 +1,7 @@
 import React from 'react';
 import BackGround from './components/background/background.component';
 import TitleType from './components/title/title.component';
+import LandingPage from './pages/landing-page/landing-page.component';
 import './App.css';
 class App extends React.Component {
   constructor(props){
@@ -25,10 +26,8 @@ class App extends React.Component {
     let clipPathX = "polygon(0% 0%, 0% 100%, " + x + "px " + "100%, " + x + "px 0%)";
     return(
       <div className="app" onMouseMove={this.onMouseMove}>
-        {/* set the background */}
-        <BackGround clipPath={clipPathX}/>
-        {/* the header text */}
-        <TitleType />
+        {/* Load the landing page */}
+        <LandingPage clipPathX={clipPathX}/>
       </div>
     )
   }
